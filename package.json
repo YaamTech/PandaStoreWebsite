@@ -1,0 +1,19 @@
+{
+  "name": "pandastore",
+  "version": "1.0.0",
+  "description": "Panda Store Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaamTech/PandaStoreWebsite.git"
+  },
+  "author": "Amon Bazongo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YaamTech/PandaStoreWebsite/issues"
+  },
+  "homepage": "https://github.com/YaamTech/PandaStoreWebsite#readme"
+}
