@@ -3,7 +3,7 @@
 var React     = require('react');
 var ReactDOM  = require('react-dom');
 
-var Index = React.createClass({displayName: "Index",
+var BeforeSlider = React.createClass({displayName: "BeforeSlider",
     render: function() {
         return (
           React.createElement("div", null, 
@@ -40,205 +40,17 @@ var Index = React.createClass({displayName: "Index",
                         )
                     )
                 )
-            ), 
-
-            React.createElement("div", {className: "slider-area"}, 
-                React.createElement("div", {className: "zigzag-bottom"}), 
-                React.createElement("div", {id: "slide-list", className: "carousel carousel-fade slide", "data-ride": "carousel"}, 
-
-                    React.createElement("div", {className: "slide-bulletz"}, 
-                        React.createElement("div", {className: "container"}, 
-                            React.createElement("div", {className: "row"}, 
-                                React.createElement("div", {className: "col-md-12"}, 
-                                    React.createElement("img", {src: "img/slide-1.jpg"})
-                                )
-                            )
-                        )
-                    ), 
-
-                    React.createElement("div", {className: "carousel-inner", role: "listbox"}, 
-                        React.createElement("div", {className: "item active"}, 
-                            React.createElement("div", {className: "single-slide"}, 
-                                React.createElement("div", {className: "slide-bg slide-one"}), 
-                                React.createElement("div", {className: "slide-text-wrapper"}, 
-                                    React.createElement("div", {className: "slide-text"}, 
-                                        React.createElement("div", {className: "container"}, 
-                                            React.createElement("div", {className: "row"}, 
-                                                React.createElement("div", {className: "col-md-6 col-md-offset-6"}, 
-                                                    React.createElement("div", {className: "slide-content"}, 
-                                                        React.createElement("h2", null, "We are awesome"), 
-                                                        React.createElement("p", null, "We supply both" + ' ' +
-                                                          "New and SECOND HAND" + ' ' +
-                                                          "exclusively Apple devices" + ' ' +
-                                                          "(iPHONEs, iPAD, iMAC etc...)" + ' ' +
-                                                          "at LOW PRICES to" + ' ' +
-                                                          "all categories of customers."), "                                                    ")
-                                                )
-                                            )
-                                        )
-                                    )
-                                )
-                            )
-                        ), 
-                        React.createElement("div", {className: "item"}, 
-                            React.createElement("div", {className: "single-slide"}, 
-                                React.createElement("div", {className: "slide-bg slide-two"}), 
-                                React.createElement("div", {className: "slide-text-wrapper"}, 
-                                    React.createElement("div", {className: "slide-text"}, 
-                                        React.createElement("div", {className: "container"}, 
-                                            React.createElement("div", {className: "row"}, 
-                                                React.createElement("div", {className: "col-md-6 col-md-offset-6"}, 
-                                                    React.createElement("div", {className: "slide-content"}, 
-                                                        React.createElement("h2", null, "We are great"), 
-                                                        React.createElement("p", null, "We sell the REAL electrical products/books/stuffs:", 
-                                                            React.createElement("br", null), "  1. Used products with cheap prices.", 
-                                                            React.createElement("br", null), "  2. Showroom products with lower prices than original.", 
-                                                            React.createElement("br", null), "  3. 100% NEW FULLBOX products with lower prices."), "                                                    ")
-                                                )
-                                            )
-                                        )
-                                    )
-                                )
-                            )
-                        ), 
-                        React.createElement("div", {className: "item"}, 
-                            React.createElement("div", {className: "single-slide"}, 
-                                React.createElement("div", {className: "slide-bg slide-three"}), 
-                                React.createElement("div", {className: "slide-text-wrapper"}, 
-                                    React.createElement("div", {className: "slide-text"}, 
-                                        React.createElement("div", {className: "container"}, 
-                                            React.createElement("div", {className: "row"}, 
-                                                React.createElement("div", {className: "col-md-6 col-md-offset-6"}, 
-                                                    React.createElement("div", {className: "slide-content"}, 
-                                                        React.createElement("h2", null, "We are superb"), 
-                                                        React.createElement("p", null, "You can bargain and get a discount. You can reserve too.")
-                                                    )
-                                                )
-                                            )
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                    )
-
-                )
-            ), 
-
-            React.createElement("div", {className: "promo-area"}, 
-                React.createElement("div", {className: "zigzag-bottom"}), 
-                React.createElement("div", {className: "container"}, 
-                    React.createElement("div", {className: "row"}, 
-                        React.createElement("div", {className: "col-md-3 col-sm-6"}, 
-                            React.createElement("div", {className: "single-promo"}, 
-                                React.createElement("i", {className: "fa fa-refresh"}), 
-                                React.createElement("p", null, "1 week minimum warranty")
-                            )
-                        ), 
-                        React.createElement("div", {className: "col-md-3 col-sm-6"}, 
-                            React.createElement("div", {className: "single-promo"}, 
-                                React.createElement("i", {className: "fa fa-truck"}), 
-                                React.createElement("p", null, " Shipping via cash on delivery available")
-                            )
-                        ), 
-                        React.createElement("div", {className: "col-md-3 col-sm-6"}, 
-                            React.createElement("div", {className: "single-promo"}, 
-                                React.createElement("i", {className: "fa fa-lock"}), 
-                                React.createElement("p", null, " Payments via ATM, cash on delivery and soon 7-11")
-                            )
-                        ), 
-                        React.createElement("div", {className: "col-md-3 col-sm-6"}, 
-                            React.createElement("div", {className: "single-promo"}, 
-                                React.createElement("i", {className: "fa fa-gift"}), 
-                                React.createElement("p", null, "Discounts and free gifts available")
-                            )
-                        )
-                    )
-                )
-            ), 
-
-            React.createElement("div", {className: "maincontent-area"}, 
-                React.createElement("div", {className: "zigzag-bottom"}), 
-                React.createElement("div", {className: "container"}, 
-                    React.createElement("div", {className: "row"}, 
-                        React.createElement("div", {className: "col-md-12"}, 
-                            React.createElement("div", {className: "latest-product"}, 
-                                React.createElement("h2", {className: "section-title"}, "Latest Products"), 
-                                React.createElement("h3", null, "We will post here soon. But you can still shop on Facebook ", React.createElement("a", {href: "https://www.facebook.com/pandastoretaiwan/shop", target: "_blank"}, "here"), ".")
-                            )
-                        )
-                    )
-                )
-            ), 
-
-            React.createElement("div", {className: "brands-area"}, 
-                React.createElement("div", {className: "zigzag-bottom"}), 
-                React.createElement("div", {className: "container"}, 
-                    React.createElement("div", {className: "row"}, 
-                        React.createElement("div", {className: "col-md-12"}, 
-                            React.createElement("div", {className: "brand-wrapper"}, 
-                                React.createElement("h2", {className: "section-title"}, "Partners"), 
-                                React.createElement("div", {className: "brand-list"}, 
-                                    React.createElement("img", {src: "img/taibaysell.jpg", alt: ""})
-                                )
-                            )
-                        )
-                    )
-                )
-            ), 
-
-            React.createElement("div", {className: "footer-top-area"}, 
-                React.createElement("div", {className: "zigzag-bottom"}), 
-                React.createElement("div", {className: "container"}, 
-                    React.createElement("div", {className: "row"}, 
-                        React.createElement("div", {className: "col-md-3 col-sm-6"}, 
-                            React.createElement("div", {className: "footer-about-us"}, 
-                                React.createElement("h2", null, React.createElement("span", null, "Panda Store")), 
-                                React.createElement("p", null), 
-                                React.createElement("div", {className: "footer-social"}, 
-                                    React.createElement("a", {href: "https://www.facebook.com/pandastoretaiwan", target: "_blank"}, React.createElement("i", {className: "fa fa-facebook"}))
-                                )
-                            )
-                        ), 
-
-                        React.createElement("div", {className: "col-md-3 col-sm-6"}
-
-                        ), 
-
-                        React.createElement("div", {className: "col-md-3 col-sm-6"}
-
-                        ), 
-
-                        React.createElement("div", {className: "col-md-3 col-sm-6"}
-
-                        )
-                    )
-                )
-            ), 
-
-            React.createElement("div", {className: "footer-bottom-area"}, 
-                React.createElement("div", {className: "container"}, 
-                    React.createElement("div", {className: "row"}, 
-                        React.createElement("div", {className: "col-md-8"}, 
-                            React.createElement("div", {className: "copyright"}, 
-                                React.createElement("p", null, "© 2016 Panda Store. All Rights Reserved")
-                            )
-                        ), 
-
-                        React.createElement("div", {className: "col-md-4"}
-
-                        )
-                    )
-                )
             )
+
           )
+
         );
     }
 });
 
 ReactDOM.render(
-    React.createElement(Index, null),
-    document.getElementById('wrapper')
+    React.createElement(BeforeSlider, null),
+    document.getElementById('before-slider')
 );
 
 

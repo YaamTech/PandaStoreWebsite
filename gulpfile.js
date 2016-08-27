@@ -11,9 +11,9 @@ var config = {
     dest: 'build/'
   },
   reactjs: {
-		src: 'app/js/react/index.js',
+		src: 'app/js/react/*.js',
 		dest: 'build/js',
-		watch: ['app/js/react/index.js']
+		watch: ['app/js/react/*.js']
   },
   js: {
 		src: 'app/js/*.js',
