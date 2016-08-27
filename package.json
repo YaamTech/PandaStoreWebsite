@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/YaamTech/PandaStoreWebsite/issues"
   },
-  "homepage": "https://github.com/YaamTech/PandaStoreWebsite#readme"
+  "homepage": "https://github.com/YaamTech/PandaStoreWebsite#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1"
+  },
+  "dependencies": {
+    "gulp-react": "^3.1.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "reactify": "^1.1.1"
+  }
 }
